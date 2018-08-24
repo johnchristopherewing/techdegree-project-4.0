@@ -1,32 +1,63 @@
-//classes
 .btn--default {
-  background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: $color-link;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .btn--success {
-  background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: green;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .btn--error {
-  background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .btn--warning {
-  background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: orange;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .btn--info {
-  background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: purple;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-//.theme__colors
+.theme__colors {
+  display: block;
+}

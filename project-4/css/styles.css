@@ -5,6 +5,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 html {
   line-height: 1.15;
   /* 1 */
@@ -297,63 +299,122 @@ template {
 [hidden] {
   display: none; }
 
-.grid__col--12 {
-  text-align: center;
-  font-family: "Nunito", sans-serif; }
+* {
+  font-family: "Nunito", sans-serif;
+  color: #686868; }
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px; }
 
 .link {
   color: #5edbff;
   text-decoration: none; }
 
+.headline--primary {
+  color: #6ae8cc;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 30px;
+  font-size: 35px; }
+
+.headline--secondary {
+  margin-left: 20px;
+  margin-top: 60px; }
+
 .nav__item {
   list-style-type: none;
   line-height: 3;
-  text-align: center; }
+  text-align: center;
+  margin-right: 33px; }
   .nav__item:hover {
     background-color: #6ae8cc;
     border-radius: 10px; }
   .nav__item a {
     text-decoration: none; }
   .nav__item a:visited {
-    color: black; }
-  .nav__item a:hover {
+    color: #686868; }
+  .nav__item:hover a {
     color: white; }
 
 .img--logo {
   display: block;
   margin: auto;
   width: 35%;
-  margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.img--frame {
+  display: block;
+  margin: auto;
+  width: 55%; }
+
+.img--avatar {
+  display: block;
+  margin: auto;
+  width: 30%; }
 
 .btn--default {
-  background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: #5edbff;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .btn--success {
-  background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: green;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .btn--error {
-  background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: red;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .btn--warning {
-  background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: orange;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .btn--info {
-  background-color: red;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  margin: auto;
+  background-color: purple;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.theme__colors {
+  display: block; }
 
 /*# sourceMappingURL=styles.css.map */
