@@ -7,5 +7,14 @@ $font-bold: 'Montserrat', sans-serif;
 
 //Colors
 $color-primary: #6ae8cc;
-$color-link: #5edbff;
+$color-primary-light: lighten($color-primary, 7%);
+$color-link: #2dc3ff;
+$color-link-dark: darken($color-link, 10%);
 $color-text: #686868;
+$color-success: #56ce64;
+$color-success-light: lighten($color-success, 10%);
+$color-error: #e25158;
+$color-warning: #d8683c;
+$color-warning-light: lighten($color-warning, 10%);
+$color-info: #b07bed;
+$color-info-light: lighten($color-info, 10%);

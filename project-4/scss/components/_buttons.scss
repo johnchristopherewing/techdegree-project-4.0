@@ -18,7 +18,7 @@
   padding: 10px;
   width: 85%;
   margin: auto;
-  background-color: green;
+  background-color: $color-success;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -30,7 +30,7 @@
   padding: 10px;
   width: 85%;
   margin: auto;
-  background-color: red;
+  background-color: $color-error;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -42,7 +42,7 @@
   padding: 10px;
   width: 85%;
   margin: auto;
-  background-color: orange;
+  background-color: $color-warning;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -54,7 +54,7 @@
   padding: 10px;
   width: 85%;
   margin: auto;
-  background-color: purple;
+  background-color: $color-info;
   margin-top: 20px;
   margin-bottom: 20px;
 }

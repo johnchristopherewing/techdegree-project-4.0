@@ -4,7 +4,14 @@
   color: $color-link;
   text-decoration: none;
 }
-//.blockquote
+.blockquote {
+  border-left: 5px solid $color-primary;
+  border-radius: 10px;
+  padding: 5px 0 5px 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
 .headline--primary {
   color: $color-primary;
   font-family: $font-bold;
@@ -13,5 +20,5 @@
 }
 .headline--secondary {
   margin-left: 20px;
-  margin-top: 60px;
+  margin-top: 65px;
 }

@@ -1,4 +1,15 @@
 //classes
 //.form
-//.form__label--hidden
-//.form__input
+.form__label--hidden {
+  display: none;
+}
+.form__input {
+  display: block;
+  margin: auto;
+  width: 80%;
+  border: none;
+  border-bottom: 7px solid $color-primary;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
