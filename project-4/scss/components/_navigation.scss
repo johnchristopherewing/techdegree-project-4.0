@@ -17,3 +17,9 @@
     color: white;
   }
 }
+@include media {
+  .nav__item {
+    display: inline-block;
+    margin: 10px 0 0 33px;
+  }
+}

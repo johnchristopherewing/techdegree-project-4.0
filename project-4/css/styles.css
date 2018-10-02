@@ -308,8 +308,66 @@ p {
   margin-right: 20px;
   margin-top: 40px; }
 
-.grid__col--12 {
-  background-color: red; }
+.grid__col--3.theme__colors {
+  background-color: #cba8f3;
+  border-radius: 10px;
+  width: 85%;
+  padding: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.grid__col--4.theme__colors {
+  background-color: #2dc3ff;
+  border-radius: 10px;
+  width: 85%;
+  padding: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.grid__col--5.theme__colors {
+  background-color: #7ed988;
+  border-radius: 10px;
+  width: 85%;
+  padding: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.grid__col--6.theme__colors {
+  background-color: #008dc6;
+  border-radius: 10px;
+  width: 85%;
+  padding: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.grid__col--7.theme__colors {
+  background-color: #e25158;
+  border-radius: 10px;
+  width: 85%;
+  padding: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.grid__col--8.theme__colors {
+  background-color: #ffae4c;
+  border-radius: 10px;
+  width: 85%;
+  padding: 10px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.grid__col--12.theme__colors {
+  background-color: #6ae8cc;
+  border-radius: 10px;
+  width: 85%;
+  padding: 10px;
+  margin-left: 25px; }
 
 .link {
   color: #2dc3ff;
@@ -331,7 +389,8 @@ p {
 
 .headline--secondary {
   margin-left: 20px;
-  margin-top: 65px; }
+  margin-top: 65px;
+  font-weight: 400; }
 
 .nav__item {
   list-style-type: none;
@@ -348,6 +407,10 @@ p {
   .nav__item:hover a {
     color: white; }
 
+@media (min-width: 769px) {
+  .nav__item {
+    display: inline-block;
+    margin: 10px 0 0 33px; } }
 .img--logo {
   display: block;
   margin: auto;
@@ -371,6 +434,10 @@ p {
   margin-top: 40px;
   margin-bottom: 40px; }
 
+@media (min-width: 769px) {
+  .img--logo {
+    margin: 25px 20px 25px 20px;
+    width: auto; } }
 .btn--default {
   border-radius: 5px;
   color: white;
@@ -415,7 +482,7 @@ p {
   padding: 10px;
   width: 85%;
   margin: auto;
-  background-color: #d8683c;
+  background-color: #ff9719;
   margin-top: 20px;
   margin-bottom: 20px; }
 

@@ -1,19 +1,91 @@
 //recommend using flexbox
 //classes
-//.container
-//.grid__row
+
+
+//Flex Container for grid items
+.container {
+  
+}
+//.grid_row
+
 //.grid__col--2
-//.grid__col--3
-//.grid__col--4
-//.grid__col--5
-//.grid__col--6
-//.grid__col--7
-//.grid__col--8
+.grid__col--3 {
+  &.theme__colors {
+    background-color: $color-info-light;
+    border-radius: 10px;
+    width: 85%;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.grid__col--4 {
+  &.theme__colors {
+    background-color: $color-link;
+    border-radius: 10px;
+    width: 85%;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.grid__col--5 {
+  &.theme__colors {
+    background-color: $color-success-light;
+    border-radius: 10px;
+    width: 85%;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.grid__col--6 {
+  &.theme__colors {
+    background-color: $color-link-dark;
+    border-radius: 10px;
+    width: 85%;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.grid__col--7 {
+  &.theme__colors {
+    background-color: $color-error;
+    border-radius: 10px;
+    width: 85%;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.grid__col--8 {
+  &.theme__colors {
+    background-color: $color-warning-light;
+    border-radius: 10px;
+    width: 85%;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
 //.grid__col--9
 //.grid__col--10
 //.grid__col--11
 .grid__col--12 {
-  background-color: red;
+  &.theme__colors {
+    background-color: $color-primary;
+    border-radius: 10px;
+    width: 85%;
+    padding: 10px;
+    margin-left: 25px;
+  }
 }
 //.centered
-//.theme__colors
+//.theme__colors affects buttons as well

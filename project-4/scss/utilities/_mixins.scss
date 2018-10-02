@@ -1,2 +1,8 @@
 //media queries
+@mixin media {
+    @media (min-width: $break) {
+        @content;
+    }
+}
+
 //flexbox settings
